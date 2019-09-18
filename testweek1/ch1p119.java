@@ -5,6 +5,7 @@ public class ch1p119{
         //use java inner method
         System.out.println(Integer.toBinaryString(N));
         //use simple method 
+        //使用简单方法实现
         String s="";
         for(int i = N;i > 0; i /= 2)
         {
