@@ -1,17 +1,19 @@
-public class ch1p119{
+package testweek1;
+
+public class ch1p119 {
     //switch a integer to a binary string
     public static void main(String[] args) {
         int N = 1555;
         //use java inner method
         System.out.println(Integer.toBinaryString(N));
         //use simple method 
-        //使用简单方法实现
         String s="";
         for(int i = N;i > 0; i /= 2)
         {
             s = (i%2)+s;
         }
         System.out.println(s);
+        System.out.println(System.getProperty("sun.jnu.encoding"));
     }
     
 
